@@ -45,9 +45,7 @@
 
   .tab-2-content-bottom { grid-template-columns: 1fr; }
 
-  .tab-2-content-bottom > div {
-    margin-bottom: 3rem;
-  }
+  .tab-2-content-bottom > div { margin-bottom: 3rem; }
 
   .footer-cols {
     display: grid;
@@ -57,9 +55,7 @@
 }
 
 @media (max-width: 768px) {
-  .netflix-logo {
-    max-width: 20px;
-  }
+  .netflix-logo { max-width: 20px; }
 }
 
 @media (max-width: 610px) {
@@ -67,7 +63,5 @@
 }
 
 @media (max-width: 380px) {
-  .tab-content .container {
-    max-width: 100%;
-  }
+  .tab-content .container { max-width: 100%; }
 }
