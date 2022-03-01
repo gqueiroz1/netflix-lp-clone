@@ -3,11 +3,11 @@ const tabContentItems = document.querySelectorAll('.tab-content-item')
 const monthlyPriceText = document.getElementById('monthly-price-text')
 const logoImage = document.querySelector('.netflix-logo')
 
-window.addEventListener('load', setMonthlyPriceText())
+window.addEventListener('load', setSmallScreenSettings())
 
-window.addEventListener('resize', setMonthlyPriceText)
+window.addEventListener('resize', setSmallScreenSettings)
 
-function setMonthlyPriceText () {
+function setSmallScreenSettings () {
   if (this.innerWidth <= 768) {
    monthlyPriceText.textContent = 'Monthly price'
    logoImage.src = '../img/netflix-logo-symbol.png'
